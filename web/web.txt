@@ -1,0 +1,6 @@
+Answer the following questions in at least 2 paragraphs, in your own words, based on what you have learned in this module.
+**How does the internet work? What happens when you click on a link? **
+
+Based on what I have learned throughout this module, I would say that the internet is a complex, yet cooperative thing.  The reason I say the internet is a cooperative thing is that I have learned how perfectly three languages work together to create what we call the internet. From what we can see with our eyes, the application of HTML, CSS, and Javascript a vision can come to life. With many more languages, I have never even heard of yet. 
+
+ The collaborating trio works well together, as each element brings something to life bouncing off of one another; one implementing a structure, the other design, and the final one utility. I find it amazing how I have learned so much about how the internet works ins such a short time, I have learned that the internet is complex, and it did not just show up one day. The internet took time and effort. I think back on the simplicity of Myspace, and how it is a perfect example of how the internet will always be growing off another code, collaborating to create our future. 

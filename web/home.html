@@ -3,7 +3,7 @@
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
-
+	
 </head>
 <body>
 	<nav>
@@ -11,16 +11,36 @@
 	        <li class="crumb"><a href="./home.html">Home</a></li>
 	        <li class="crumb"><a href="./profile.html">Profile</a></li>
 	        <li class="crumb"><a href="./about.html">About</a></li>
+			
 	    </ol>
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
+		<h1>Hello World</h1>
 		<!-- insert hello world here -->
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<img onmouseover='getAlert(this)' class='message' src="https://images-na.ssl-images-amazon.com/images/I/51-YA02eELL._AC_UL160_SR160,160_.jpg">
+
+		<p>'Welcome paragraph'Add another paragraph somewhere on the page. The content of the paragraph should be a message welcoming the user to the website.Add another paragraph somewhere on the page. The content of the paragraph should be a message welcoming the user to the website.
+
+
+
+		</p>
+<!-- create 3 bullet points of compliments to the user
+ -->
+
+
+		<ul>
+			<li>You motivate and encourage me to do my best. </li>
+			<li>You handle stress so well. You help me keep my challenges in perspective.</li>
+			<li>Wow! I must say that, your smile has to be one of your best features! Bat-tastic. </li>
+
+		</ul>
+
+		<!-- add a form input to the "contact us" form that asks the user how they heard about this website. They should be able to check boxes that include “Google”, “A friend”, or “Other”. -->
 
 		<h2>Contact Us</h2>
+		
 		<form id="contact">
 			Your name:
 			<input type="text">
@@ -28,15 +48,35 @@
 			Message:
 			<input type="textarea">
 
-			<input type="submit">
+			
+<script src="home.js"></script>
+<script src="styles.css"></script>
 
+<h3>How did you hear about this website?</h3>
+
+<h2 class="index-h2">
+		<form>
+			
+			<input type="checkbox" id="source" name="Goggle" value="Goggle">
+			<label for="source1"> Goggle </label><br>
+		
+			
+			<input type="checkbox" id="source2" name="source2" value="aFriend">
+			<label for="source2"> A friend </label><br>
+		
+			<input type="checkbox" id="source3" name="source3" value="other">
+			<label for="vehicle3"> Other </label>
+		
+		  </form></h2>
 
 		</form>
-
+<input type="submit" id="submitButton">
+			
 	</content>
 
 
 	<script src="about.js"></script>
+	
 
 </body>
 </html>

@@ -31,8 +31,51 @@ a:visited {
 
 input {
 	display: block;
+	position: relative;
+	font-size: 22px; 
+	
+}
+.yellowBtn {
+	background-color: yellow;
+	height: 210px;
+	width: 400px;
+  }
+.button {
+	background-color: #fffc37; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;	
 }
 
+.index-h2 {
+  background: #ddd;
+  color: yellow;
+	position: static;
+  	left: 20px;
+  	width: 200px;
+  	height: 145px;
+  	border: 3px solid rgb(0, 0, 0);
+}
+
+/* .checkbox {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+	width: fit-content;
+} */
+
 img {
+	border-radius: 95px;
 	max-width: 300px;
+}
+.img2 {
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+	
 }
