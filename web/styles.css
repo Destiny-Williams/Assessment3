@@ -35,20 +35,35 @@ input {
 	font-size: 22px; 
 	
 }
-.yellowBtn {
+/* .yellowBtn {
 	background-color: yellow;
 	height: 210px;
-	width: 400px;
-  }
-.button {
-	background-color: #fffc37; /* Green */
+	width: 400px; */
+  
+
+/* .button {
+	background-color: #fffc37; 
 	border: none;
 	color: white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;	
+	font-size: 16px;
+	border-radius: 50px;	
+} */
+
+div {
+	display: flex;
+	justify-content: normal;
+}
+
+button {
+	padding: 20px 80px;
+	margin: 5px;
+	background-color: yellow;
+	color: black;
+	border-radius: 50px;
 }
 
 .index-h2 {

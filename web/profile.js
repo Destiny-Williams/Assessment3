@@ -1,16 +1,21 @@
-document.getElementById('color').addEventListener("click", function() {
-    alert("Yellow");
- }​);​
 
+var x = document.getElementById("color");
+x.addEventListener("click", myFunction);
 
- 4
+function myFunction() {
+  alert ("My favorite color is YELLOW!")
+}
+// on-click action for the place button
+var y = document.getElementById("place");
+y.addEventListener("click", myFunctionPlace);
 
-This will do it
+function myFunctionPlace() {
+  alert ("My favorite place is HOME!")
+}
+// on-click action for the ritual button
+var z = document.getElementById("ritual");
+z.addEventListener("click", myFunctionRitual);
 
-<input id="button" type="submit" name="button" onclick="myFunction();" value="enter"/>
-
-<script>
-function myFunction(){
-    alert("You button was pressed");
-};   
-</script>
+function myFunctionRitual() {
+  alert ("My favorite ritual is EXERCISING!")
+}
